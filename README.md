@@ -8,7 +8,7 @@ O que deverá ser feito: uma aplicação web que consulta a API gratuita em [agi
 
 - Deve haver um input de texto onde o usuário digita um nome.
 - Ao digitar o nome, a consulta à API deve ser feita e o resultado exibido na tela:
-	- O usuário não precisa apertar Enter ou pressionar nenhum botão: basta esperar depois que digitou para receber o resultado. (Dica: _debounce_ de 500-1000ms.)
+  - O usuário não precisa apertar Enter ou pressionar nenhum botão: basta esperar depois que digitou para receber o resultado. (Dica: _debounce_ de 500-1000ms.)
 - Você **deve** usar SvelteKit e Svelte 4 ou 5.
 - Você **deve** usar a função `load()` do SvelteKit para requisitar a API. Pode ser um `load()` no servidor ou universal, tanto faz, contanto que a requisição aconteça num `load()`.
 - Você **deve** garantir que a URL seja modificada com o nome digitado: por exemplo, usando uma _querystring_. Essa URL deve poder ser copiada e colada e refletir o mesmo resultado da chamada à API. Um exemplo de URL poderia ser `http://localhost:5173/?name=Jebediah`.

@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary-color: #1a1e2a;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Pt Sans', helvetica, sans-serif;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	background-color: #02b995;
+	background-size: cover;
+	color: var(--primary-color);
+	padding: 10px;
+}
